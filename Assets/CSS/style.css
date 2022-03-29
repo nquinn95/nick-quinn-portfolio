@@ -28,6 +28,13 @@ main{
     margin-bottom: 20px;
 }
 
+/* the image settings for .nq-bio */
+.nq-bio img{
+    margin-left: 400px;
+    border-color: black;
+    border: 5px solid;
+}
+
 .my-works{
 
     /* setting the flexbox settings for the projects in the body/sections */
@@ -49,7 +56,6 @@ main{
     justify-content: space-evenly;
 
 } 
-
 
 
 
