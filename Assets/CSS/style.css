@@ -10,16 +10,18 @@ header{
     /* set font and font color */
  
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: right;
+    /* text-align: right; */
     color: black;
 }
 
 header h1{
-    justify-content: left;
+    font-size: 50;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     display: inline-block;
-    margin-left: 5px;
+    padding-left: 80px;
+    padding-right: 20px;
+    
 }
 
 /* .nq-nav{
@@ -37,7 +39,6 @@ header h1{
 /* changed header div to header nav so that the nav is affected */
 header nav {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
