@@ -14,6 +14,14 @@ header{
     color: black;
 }
 
+header h1{
+    justify-content: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+}
+
 /* .nq-nav{
 
     text-align: left;
@@ -34,6 +42,7 @@ header nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
+
 
 header nav ul {
     list-style-type: none;
@@ -100,7 +109,7 @@ main{
 
 .project1 img{
 
-    /* align-self: center; */
+    align-self: center;
 }
 
 /* making all images smaller than project 1 */
@@ -126,19 +135,4 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
 
-}
-
-.contact{
-
-    text-align: center;
-    
-}
-
-footer h1{
-
-    font-size: 24px;
-}
-
-footer h4{
-    bottom: 2px;
 }
