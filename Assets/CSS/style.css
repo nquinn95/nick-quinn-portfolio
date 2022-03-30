@@ -1,3 +1,4 @@
+
 header{
     /* header color and size */
     position: relative;
@@ -13,6 +14,40 @@ header{
     color: black;
 }
 
+/* .nq-nav{
+
+    text-align: left;
+    border-radius: 10px;
+    border: solid;
+    border-color: orange;
+    background-color: white;
+    width: 2.5rem;
+    
+
+} */
+
+/* changed header div to header nav so that the nav is affected */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none; }
+
 main{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,10 +57,12 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+/* setting the p setting sfor the header */
 .nq-bio p{
     margin-left: 60;
     margin-right: 300;
     margin-bottom: 20px;
+    
 }
 
 /* the image settings for .nq-bio */
@@ -35,15 +72,16 @@ main{
     border: 5px solid;
 }
 
-.my-works{
+#my-works{
 
     /* setting the flexbox settings for the projects in the body/sections */
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: right;
+    /* justify-content: right; */
     margin-left: 50px;
     margin-right: 50px;
+    gap: 80px;
 }
 
 /* setting the flexbox for the projects that are going in main */
@@ -52,10 +90,25 @@ main{
 .project3,
 .project4,
 .project5 {
-    display: flexbox;
-    justify-content: space-evenly;
+    display: inline;
+    /* justify-content: space-evenly; */
 
 } 
+
+.project1 img{
+
+    align-self: center;
+}
+
+/* making all images smaller than project 1 */
+.project2 img,
+.project3 img,
+.project4 img,
+.project5 img{
+
+    width: 500px;
+    height: 200px;
+}
 
 
 
@@ -65,6 +118,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
+    text-align: center;
     background-color: aquamarine;
 
 }
